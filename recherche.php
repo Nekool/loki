@@ -8,7 +8,7 @@
 		$recherche=$lokisalle->prepare('Select * from salle where  pays LIKE :recherche OR ville LIKE :recherche OR categorie LIKE :recherche ORDER BY id_salle');
 		$recherche->bindValue(':recherche',$postRecherche,PDO::PARAM_STR);
 		$recherche->execute();
-		$resultat_recherche=$recherche->fetchAll(PDO::FETCH_ASSOC);
+		$resultat_recherche=$recherche->fetchAll(PDO::FETCH_ASSOC); // com
 
 	}
 	if(isset($_POST['recherche'])&&isset($_POST['parMot']))

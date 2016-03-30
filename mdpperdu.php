@@ -71,6 +71,10 @@ if(isset($_POST['confirm'])) {
 	<label for="email">Email:</label>
 	<input type="text" name="email" required>
 
+	<label for="email">un essai:</label>
+	<input type="text" name="email" required>
+
+
 	<button type="submit" name="confirm" >Valider</button>
 
 </form>
