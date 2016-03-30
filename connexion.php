@@ -3,6 +3,7 @@
 	$erreur='';
 	include_once 'inc/init.inc.php';
 	include_once 'inc/header.inc.php';
+	// ok 
 
 	if(isset($_SESSION['membre'])){
 		header('location:index.php');
